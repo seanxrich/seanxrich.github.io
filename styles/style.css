@@ -36,23 +36,23 @@ header a {
     text-transform: uppercase;
 }
 
-header a:link, nav a:link {
-    color: rgb(0,0,0);
-    text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(1,1,1,.5);
-}
-
-header a:hover, nav a:hover {
-    color: rgb(122,154,175);
-    text-shadow: 1px 1px 1px rgba(1,1,1,.5);
-}
-
-a:visited {
+header a:visited, nav a:visited {
   color: rgb(0,0,0);
 }
 
-header a:visited, nav a:visited {
+header a:link, nav a:link {
+  color: rgb(0,0,0);
+  text-decoration: none;
   text-shadow: 1px 1px 1px rgba(1,1,1,.5);
+}
+
+header a:hover, nav a:hover {
+  color: rgb(122,154,175);
+  text-shadow: 1px 1px 1px rgba(1,1,1,.5);
+}
+
+a:visited {
+  color: rgb(122,154,175);
 }
 
 header ul {
