@@ -36,6 +36,10 @@ header a {
     text-transform: uppercase;
 }
 
+header a:visited, nav a:visited {
+  color: rgb(0,0,0);
+}
+
 header a:link, nav a:link {
   color: rgb(0,0,0);
   text-decoration: none;
@@ -47,7 +51,7 @@ header a:hover, nav a:hover {
   text-shadow: 1px 1px 1px rgba(1,1,1,.5);
 }
 
-a:visited {
+p a:visited {
   color: rgb(122,154,175);
 }
 
