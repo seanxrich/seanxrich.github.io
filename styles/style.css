@@ -44,12 +44,12 @@ header a:link, nav a:link {
 
 header a:hover, nav a:hover {
     color: rgb(122,154,175);
-    text-shadow: 1px 1px rgba(1,1,1,.5);
+    text-shadow: 1px 1px 1px rgba(1,1,1,.5);
 }
 
 header a:visited, nav a:visited {
     color: rgb(0,0,0);
-    text-shadow: 1px 1px rgba(1,1,1,.5);
+    text-shadow: 1px 1px 1px rgba(1,1,1,.5);
 }
 
 header ul {
