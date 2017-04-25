@@ -47,9 +47,12 @@ header a:hover, nav a:hover {
     text-shadow: 1px 1px 1px rgba(1,1,1,.5);
 }
 
+a:visited {
+  color: rgb(0,0,0);
+}
+
 header a:visited, nav a:visited {
-    color: rgb(0,0,0);
-    text-shadow: 1px 1px 1px rgba(1,1,1,.5);
+  text-shadow: 1px 1px 1px rgba(1,1,1,.5);
 }
 
 header ul {
