@@ -1,0 +1,218 @@
+/* universal styles */
+/* position styles */
+/* typography styles */
+/* color styles */
+/* media queries */
+
+* {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+html {
+  background: rgb(255, 255, 255);
+}
+
+body {
+  font: bold 10px/1.5 Helvetica, Arial, sans-serif;
+  letter-spacing: .15rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  margin: 10% 8%;
+}
+
+section {
+  margin: 2rem auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+code {
+  font-family: monospace;
+}
+
+#nav-title {
+  font-size: 2rem;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  display: none;
+}
+
+#nav-title a:hover, .topnav a:hover {
+  color: rgb(122,164,205);
+}
+
+a:visited {
+  color: rgb(50, 50, 50);
+}
+
+.topnav a.icon {
+  display: block;
+  font-size: 2rem;
+}
+
+.topnav.responsive {
+  position: relative;
+}
+
+.topnav.responsive a {
+  display: block;
+  float: none;
+  font-weight: normal;
+  text-align: left;
+}
+
+.topnav.responsive a:hover {
+  font-weight: bold;
+}
+
+.topnav.responsive a:first-child {
+  border-top: 1px solid rgb(200,200,200);
+  margin-top: 3rem;
+  padding: .5rem 0;
+}
+.topnav.responsive a:not(:last-child) {
+  border-bottom: 1px solid rgb(200,200,200);
+  padding: .5rem 0;
+}
+
+.topnav.responsive a.icon {
+  color: rgb(122,164,205);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sub-title, img.content {
+  display: none;
+}
+
+h1.content {
+  font-size: 1.75rem;
+  padding-top: 1rem;
+  padding-bottom: .75rem;
+}
+
+p.content {
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.75;
+  padding: .5rem 0;
+}
+
+p.content a:link {
+  color: rgb(122,164,205);
+}
+
+p.content a:hover {
+  text-decoration: underline;
+}
+
+.responsive {
+  float: left;
+  width: 100%;
+}
+
+div.gallery {
+  border: .1rem solid rgb(200, 200, 200);
+}
+div.gallery:hover {
+  border: .1rem solid rgb(122,164,205);
+}
+
+div.desc {
+  font-weight: lighter;
+  padding: .5rem;
+  text-align: center;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+section h2 {
+  font-size: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/*** media queries ***/
+
+@media only screen and (min-width: 700px) {
+  html {
+    border: .5rem solid;
+  }
+
+  /*body {
+    font-size: 1rem;
+  }*/
+
+  nav a {
+    text-shadow: .1rem .1rem .1rem rgba(122,164,205,.5);
+  }
+
+  nav a:hover {
+    text-shadow: 1px 1px 1px rgba(1,1,1,.9);
+  }
+
+  /* Can these be moved above media queries, since they're not ".topnav.responsive"? */
+  .topnav a.icon {
+    display: none;
+    }
+
+  .topnav {
+    position: absolute;
+    right: 8%;
+    font-size: .75rem;
+  }
+
+  .topnav a {
+    display: inline;
+    margin: 3% 0 3% 0;
+    padding: .5% 0;
+  }
+
+  .sub-title, img.content {
+    display: block;
+  }
+
+  img.content {
+    float: right;
+    margin: .2rem 0 .2rem .2rem;
+  }
+
+  .responsive {
+    padding: .05rem;
+    width: 49.99999%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+  .responsive {
+    float: left;
+    width: 24.999%;
+  }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
