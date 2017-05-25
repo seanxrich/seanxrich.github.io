@@ -1,9 +1,3 @@
-/* universal styles */
-/* position styles */
-/* typography styles */
-/* color styles */
-/* media queries */
-
 * {
   box-sizing: border-box;
   color: rgb(0, 0, 0);
@@ -53,9 +47,9 @@ code {
   color: rgb(122,164,205);
 }
 
-a:visited {
+/*a:visited {
   color: rgb(50, 50, 50);
-}
+}*/
 
 .topnav a.icon {
   display: block;
