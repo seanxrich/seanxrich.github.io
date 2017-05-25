@@ -47,10 +47,6 @@ code {
   color: rgb(122,164,205);
 }
 
-/*a:visited {
-  color: rgb(50, 50, 50);
-}*/
-
 .topnav a.icon {
   display: block;
   font-size: 2rem;
@@ -111,6 +107,10 @@ p.content a:link {
 
 p.content a:hover {
   text-decoration: underline;
+}
+
+p.content a:visited {
+  color: rgb(122,164,205);
 }
 
 .responsive {
