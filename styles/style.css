@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  margin: 10% 8%;
+  margin: 5% 3%;
 }
 
 section {
@@ -152,6 +152,10 @@ footer {
 @media only screen and (min-width: 700px) {
   html {
     border: .5rem solid;
+  }
+  
+  .container {
+  margin: 5% 3%;
   }
 
   nav a {
