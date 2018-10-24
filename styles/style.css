@@ -15,19 +15,10 @@ body {
   padding: 0;
 }
 
-.container {
-  margin: 5% 3%;
-}
-
-img {
-  max-width: 100%;
-}
-
-code {
-  font-family: monospace;
-}
+/*** TITLE, NAV, HEADER ***/
 
 #nav-title {
+  color: #4c657f;
   font-size: 2rem;
   text-align: center;
 }
@@ -36,72 +27,13 @@ code {
   display: none;
 }
 
-.topnav {
-  overflow: hidden;
+.container {
+  margin: 5% 3%;
 }
 
-a.topnav {
-  display: none;
-}
-
-#nav-title a {
-  color: #4c657f;
-}
-
-#nav-title a:hover, .topnav a:hover {
-  color: rgb(122,164,205);
-  text-decoration: none;
-}
-
-.topnav a.icon {
-  display: block;
-  font-size: 2rem;
-}
-
-.topnav.responsive {
-  position: relative;
-}
-
-.topnav.responsive a {
-  display: block;
-  float: none;
-  font-weight: normal;
-  text-align: left;
-}
-
-.topnav.responsive a:hover {
-  font-weight: bold;
-}
-
-.topnav.responsive a:first-child {
-  border-top: 1px solid rgb(200,200,200);
-  margin-top: 3rem;
-  padding: .5rem 0;
-}
-.topnav.responsive a:not(:last-child) {
-  border-bottom: 1px solid rgb(200,200,200);
-  padding: .5rem 0;
-}
-
-.topnav.responsive a.icon {
-  color: rgb(122,164,205);
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.img-content {
-  display: none;
-}
-
+/*** TEXT ***/
 .content {
   text-align: center;
-}
-
-h1.content {
-  font-size: 1.75rem;
-  padding-top: 1rem;
-  padding-bottom: .75rem;
 }
 
 p.content {
@@ -112,17 +44,10 @@ p.content {
   margin: .5rem 0;
 }
 
-p.content a:link {
-  color: #4c657f;
-}
-
-p.content a:hover {
-  text-decoration: underline;
-  font-weight: bolder;
-}
-
-p.content a:visited {
-  color: #4c657f;
+h1.content {
+  font-size: 1.75rem;
+  padding-top: 1rem;
+  padding-bottom: .75rem;
 }
 
 .list-group-item li {
@@ -130,15 +55,34 @@ p.content a:visited {
   letter-spacing: .12rem;
 }
 
-section h2 {
-  font-size: 1rem;
-  margin: 1rem 0;
-  text-align: center;
+code {
+  font-family: monospace;
 }
 
+/*** LINKS ***/
+a:link {
+  color: #4c657f;
+}
 
+a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
 
+a:visited {
+  color: #4c657f;
+}
 
+/*** IMAGES ***/
+img {
+  max-width: 100%;
+}
+
+.img-content {
+  display: none;
+}
+
+/*** MEDIA QUERIES ***/
 @media only screen and (min-width: 700px) {
   html {
     border: .5rem solid;
