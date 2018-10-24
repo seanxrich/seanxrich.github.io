@@ -25,6 +25,10 @@ body {
   text-align: center;
 }
 
+.navbar-default {
+    background-color: #bdbdbd;
+}
+
 #sub-title {
   display: none;
 }
