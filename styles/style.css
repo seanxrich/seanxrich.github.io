@@ -57,8 +57,8 @@ h1.content {
 }
 
 .list-group-item li {
-  font-size: 1rem;
-  letter-spacing: .12rem;
+  font-size: 1.5rem;
+  letter-spacing: .15rem;
 }
 
 code {
