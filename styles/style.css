@@ -128,6 +128,7 @@ ul.content {
 }
 
 .list-container ul {
+  display: inline-block;
   margin-right: auto;
   margin-left: auto;
 }
