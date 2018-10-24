@@ -88,6 +88,10 @@ code {
   display: none;
 }
 
+.content {
+  text-align: center;
+}
+
 h1.content {
   font-size: 1.75rem;
   padding-top: 1rem;
