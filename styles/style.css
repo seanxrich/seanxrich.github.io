@@ -118,19 +118,20 @@ p.content a:visited {
   color: rgb(122,164,205);
 }
 
+.list-container ul {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 li {
   font-size: 1rem;
   font-weight: lighter;
   line-height: 1.5;
   padding: .5rem 0;
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
   list-style-type: circle;
-}
-
-.list-container ul {
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .responsive {
