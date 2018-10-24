@@ -127,8 +127,9 @@ ul.content {
   list-style-type: circle;
 }
 
-li.content {
-  text-align: center;
+.list-container ul {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .responsive {
