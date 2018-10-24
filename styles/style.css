@@ -113,6 +113,13 @@ p.content a:visited {
   color: rgb(122,164,205);
 }
 
+ul.content {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.75;
+  padding: .5rem 0;
+}
+
 .responsive {
   float: left;
   width: 100%;
