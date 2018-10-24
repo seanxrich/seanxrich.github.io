@@ -17,7 +17,7 @@ body {
   height: 100%;
 }
 
-/*** TITLE, NAV, HEADER ***/
+/*** TITLE, NAV, CONTAINER, HEADER, FOOTER ***/
 
 #nav-title {
   color: #4c657f;
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  margin: 5% 3%;
+  margin: auto;
 }
 
 /*** TEXT ***/
@@ -101,9 +101,4 @@ img {
   #sub-title, .img-content {
     display: block;
   }
-
-  /*img.content {
-    float: right;
-    margin: .2rem 0 .2rem .2rem;
-  }*/
 }
