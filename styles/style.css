@@ -103,7 +103,7 @@ h1.content {
 }
 
 p.content {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: lighter;
   line-height: 1.75;
   margin: .5rem 0;
@@ -122,7 +122,7 @@ p.content a:visited {
 }
 
 .list-group-item li {
-  font-size: 1.2px;
+  font-size: 1rem;
   letter-spacing: .12rem;
 }
 
@@ -137,9 +137,9 @@ section h2 {
   text-align: center;
 }
 
-footer {
+/*footer {
   text-align: center;
-}
+}*/
 
 
 
