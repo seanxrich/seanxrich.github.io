@@ -98,6 +98,10 @@ h1.content {
   padding-bottom: .75rem;
 }
 
+p {
+  margin-top: 1rem;
+}
+
 p.content {
   font-size: 1rem;
   font-weight: lighter;
@@ -118,26 +122,10 @@ p.content a:visited {
   color: rgb(122,164,205);
 }
 
-/*.list-container ul {
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;*/
-}
-
-/*li {
-  font-size: 1rem;
-  font-weight: lighter;
-  line-height: 1.5;
-  padding: .5rem 0;
-  margin-left: 1rem;
-  list-style-type: circle;
-}*/
-
-.responsive {
+/*.responsive {
   float: left;
   width: 100%;
-}
+}*/
 
 section h2 {
   font-size: 1rem;
@@ -150,9 +138,9 @@ footer {
 }
 
 
-/*** media queries ***/
 
-@media only screen and (min-width: 700px) {
+
+/*@media only screen and (min-width: 700px) {
   html {
     border: .5rem solid;
   }
@@ -169,7 +157,7 @@ footer {
     text-shadow: 1px 1px 1px rgba(1,1,1,.9);
   }
 
-  /* Can these be moved above media queries, since they're not ".topnav.responsive"? */
+  
   .topnav a.icon {
     display: none;
     }
@@ -213,3 +201,4 @@ footer {
     display: table;
     clear: both;
 }
+*/
