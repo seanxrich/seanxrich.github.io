@@ -123,6 +123,8 @@ p.content a:visited {
 
 .list-group-item li {
   font-size: 1.2px;
+  letter-spacing: .12rem;
+}
 
 /*.responsive {
   float: left;
