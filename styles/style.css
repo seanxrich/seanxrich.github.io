@@ -98,16 +98,11 @@ h1.content {
   padding-bottom: .75rem;
 }
 
-/*p.text-center {
-  padding-top: 1rem;
-}*/
-
 p.content {
   font-size: 1rem;
   font-weight: lighter;
   line-height: 1.75;
   padding: .5rem 0;
-  text-align: center;
 }
 
 p.content a:link {
