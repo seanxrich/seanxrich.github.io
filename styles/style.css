@@ -28,7 +28,7 @@ img {
 }
 
 .main-img {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 code {
@@ -120,6 +120,9 @@ p.content a:hover {
 p.content a:visited {
   color: rgb(122,164,205);
 }
+
+.list-group-item li {
+  font-size: 1.2px;
 
 /*.responsive {
   float: left;
