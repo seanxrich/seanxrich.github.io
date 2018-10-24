@@ -19,10 +19,6 @@ body {
   margin: 5% 3%;
 }
 
-section {
-  margin: 2rem auto;
-}
-
 img {
   max-width: 100%;
 }
@@ -111,11 +107,12 @@ p.content {
 }
 
 p.content a:link {
-  color: rgb(122,164,205);
+  color: #2d4966;
 }
 
 p.content a:hover {
   text-decoration: underline;
+  font-weight: bolder;
 }
 
 p.content a:visited {
