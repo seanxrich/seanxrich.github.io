@@ -25,10 +25,6 @@ body {
   text-align: center;
 }
 
-#nav-img {
-  display: none;
-}
-
 .navbar {
     background-color: #dfdfdf !important;
 }
@@ -107,7 +103,7 @@ img {
     margin: 1.5rem 0;
   }
 
-  #sub-title, #nav-image, .img-content {
+  #sub-title, .img-content {
     display: block;
   }
 }
