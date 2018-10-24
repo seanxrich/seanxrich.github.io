@@ -148,7 +148,7 @@ section h2 {
   }
 
   nav a {
-    text-shadow: .2rem .1rem .2rem rgba(122,164,205,.5);
+    text-align: center;
   }
 
   nav a:hover {
