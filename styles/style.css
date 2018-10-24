@@ -56,10 +56,9 @@ h1.content {
   padding-bottom: .75rem;
 }
 
-/*.list-group-item li {*/
 li.content {
-  font-size: 1.5rem;
-  letter-spacing: .15rem;
+  font-size: 1.2rem;
+  letter-spacing: .12rem;
 }
 
 code {
