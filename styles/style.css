@@ -96,49 +96,12 @@ img {
     margin: 1.5rem 0;
   }
 
-  nav a {
-    text-align: center;
-  }
-
-  nav a:hover {
-    text-shadow: 1px 1px 1px rgba(1,1,1,.9);
-  }
-
-  
-  .topnav a.icon {
-    display: none;
-    }
-
-  .topnav {
-    position: absolute;
-    right: 8%;
-    font-size: .75rem;
-  }
-
-  .topnav a {
-    display: inline;
-    margin: 3% 0 3% 0;
-    padding: .5% 0;
-  }
-
   .sub-title, img.content {
     display: block;
   }
 
-  img.content {
+  /*img.content {
     float: right;
     margin: .2rem 0 .2rem .2rem;
-  }
-
-  .responsive {
-    padding: .05rem;
-    width: 49.99999%;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-  .responsive {
-    float: left;
-    width: 24.999%;
-  }
+  }*/
 }
