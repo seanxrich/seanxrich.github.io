@@ -32,6 +32,10 @@ code {
   text-align: center;
 }
 
+#sub-title {
+  display: none;
+}
+
 .topnav {
   overflow: hidden;
 }
