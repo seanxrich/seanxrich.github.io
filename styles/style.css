@@ -118,11 +118,11 @@ p.content a:visited {
   color: rgb(122,164,205);
 }
 
-.list-container ul {
+/*.list-container ul {
   display: inline-block;
-  /*margin-right: auto;
-  margin-left: auto;*/
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;*/
 }
 
 /*li {
