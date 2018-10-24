@@ -78,6 +78,7 @@ a:visited {
 /*** IMAGES ***/
 img {
   max-width: 100%;
+  height-auto;
 }
 
 .img-content {
