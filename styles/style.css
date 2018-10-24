@@ -32,7 +32,7 @@ code {
   text-align: center;
 }
 
-h1#sub-title {
+#sub-title {
   display: none;
 }
 
@@ -139,7 +139,7 @@ section h2 {
 
 
 
-/*@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
   html {
     border: .5rem solid;
   }
@@ -197,4 +197,4 @@ section h2 {
     float: left;
     width: 24.999%;
   }
-}*/
+}
