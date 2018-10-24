@@ -189,11 +189,4 @@ footer {
     float: left;
     width: 24.999%;
   }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-*/
+}*/
