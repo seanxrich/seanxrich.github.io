@@ -118,31 +118,13 @@ ul.content {
   font-weight: lighter;
   line-height: 1.5;
   padding: .5rem 0;
-  margin: 1rem;
+  margin: 0 1rem 0 1rem;
   list-style-type: circle;
 }
 
 .responsive {
   float: left;
   width: 100%;
-}
-
-div.gallery {
-  border: .1rem solid rgb(200, 200, 200);
-}
-div.gallery:hover {
-  border: .1rem solid rgb(122,164,205);
-}
-
-div.desc {
-  font-weight: lighter;
-  padding: .5rem;
-  text-align: center;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
 }
 
 section h2 {
