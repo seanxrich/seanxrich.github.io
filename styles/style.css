@@ -43,6 +43,10 @@ code {
   display: none;
 }
 
+#nav-title a {
+  color: #4c657f;
+}
+
 #nav-title a:hover, .topnav a:hover {
   color: rgb(122,164,205);
 }
@@ -116,7 +120,7 @@ p.content a:hover {
 }
 
 p.content a:visited {
-  color: rgb(122,164,205);
+  color: #4c657f;
 }
 
 .list-group-item li {
