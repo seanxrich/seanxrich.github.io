@@ -49,6 +49,7 @@ code {
 
 #nav-title a:hover, .topnav a:hover {
   color: rgb(122,164,205);
+  text-decoration: none;
 }
 
 .topnav a.icon {
@@ -88,7 +89,7 @@ code {
   top: 0;
 }
 
-.sub-title, img.content {
+img.content {
   display: none;
 }
 
