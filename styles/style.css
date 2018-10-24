@@ -32,7 +32,7 @@ code {
   text-align: center;
 }
 
-#sub-title {
+h1#sub-title {
   display: none;
 }
 
@@ -40,7 +40,7 @@ code {
   overflow: hidden;
 }
 
-.topnav a {
+a.topnav {
   display: none;
 }
 
@@ -90,7 +90,7 @@ code {
   top: 0;
 }
 
-.content img {
+img.content {
   display: none;
 }
 
